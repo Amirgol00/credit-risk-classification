@@ -8,7 +8,8 @@ The purpose of this analysis is to employ machine learning models to assess the 
 
 ## Dataset
 
-Data Types: loan_size, interest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks,total_debt
+**Data Types**: 
+loan_size, interest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks,total_debt
 
 **Results**
 
