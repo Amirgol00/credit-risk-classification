@@ -9,21 +9,25 @@ The purpose of this analysis is to employ machine learning models to assess the 
 ## Dataset
 
 **Data Types**: 
+
 loan_size, interest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks,total_debt
 
-**Results**
+## Results
 
 The performance of the logistic regression model used in this analysis is summarized as follows:
 
-Accuracy Score: 99%
+- **Accuracy Score**: 99%
 The model correctly predicts loan risk in 99% of cases, indicating its high reliability in overall prediction.
-Precision Score:
-For low-risk loans: 100%
-For high-risk loans: 85%
+
+
+- **Precision Score**:
+    - For low-risk loans: 100%
+    - For high-risk loans: 85%
 The model is perfect in identifying low-risk loans but slightly less precise for high-risk loans.
-Recall Score:
-For low-risk loans: 99%
-For high-risk loans: 91%
+
+- **Recall Score**:
+    - For low-risk loans: 99%
+    - For high-risk loans: 91%
 The model has a high ability to identify the majority of both low and high-risk loans, though it's marginally better at detecting low-risk loans.
 
 ## Summary
